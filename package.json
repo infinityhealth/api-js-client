@@ -13,9 +13,6 @@
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@infinityhealth"
-  },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
